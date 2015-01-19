@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery UI Example Page</title>
+	<link href="css/smoothness/jquery-ui-1.10.0.custom.css" rel="stylesheet">
+	<script src="js/jquery-1.9.0.js"></script>
+	<script src="js/jquery-ui-1.10.0.custom.js"></script>
+	<script>
+	/* Inicialización en español para la extensión 'UI date picker' para jQuery. */
+/* Traducido por Vester (xvester [en] gmail [punto] com). */
+jQuery(function($){
+   $.datepicker.regional['es'] = {
+      closeText: 'Cerrar',
+      prevText: '<Ant',
+      nextText: 'Sig>',
+      currentText: 'Hoy',
+      monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+      monthNamesShort: ['Ene','Feb','Mar','Abr', 'May','Jun','Jul','Ago','Sep', 'Oct','Nov','Dic'],
+      dayNames: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
+      dayNamesShort: ['Dom','Lun','Mar','Mié','Juv','Vie','Sáb'],
+      dayNamesMin: ['Do','Lu','Ma','Mi','Ju','Vi','Sá'],
+      weekHeader: 'Sm',
+      dateFormat: 'dd/mm/yy',
+      firstDay: 1,
+      isRTL: false,
+      showMonthAfterYear: false,
+      yearSuffix: ''};
+   $.datepicker.setDefaults($.datepicker.regional['es']);
+}); 
+	
+	
+	$(function() {
+	$("#campofecha").datepicker({
+   		showOn: 'both',
+   		buttonImage: 'calendar.png',
+   		buttonImageOnly: true,
+   		changeYear: true,
+   		onSelect: function(textoFecha, objDatepicker){
+//      		alert(textoFecha);
+			document.getElementById('valor').value = textoFecha;
+   		}
+	}); 
+	
+
+	});
+    </script>
+	<style>
+	#campofecha{
+		font: 62.5% "Trebuchet MS", sans-serif;
+	}
+
+	</style>
+</head>
+<body>
+
+<div id="campofecha"></div>

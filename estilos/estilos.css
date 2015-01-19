@@ -1,0 +1,208 @@
+body {
+	border: 0;
+	margin: 0px;
+	padding: 0px;
+	background-color:#F1F5FE;	
+}
+
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.tdMenuOut
+{
+	background-color:#E1F7F2;
+	border:solid 1px #E1F7F2;
+	font-family:Verdana;
+	color:Black;
+	font-size:8pt;
+}
+
+.tdBlackLine
+{
+	background-color:#000000;
+}
+
+.tdMenuOver
+{
+	background-color:#CCE2DD;
+	border:solid 1px #000000;
+	font-family:Verdana;
+	color:Black;
+	cursor:hand;
+	font-size:8pt;
+}
+.pie {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-style: normal;
+	color: #FFFFFF;
+	font-weight: bold;
+
+}
+.titulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.subtitulo {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: medium;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.txtForm {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	height: 18px;
+	border:solid 1px #000000;
+}
+.btnForm {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+}
+
+.contornoAzulCuerpo {
+	border: 2px solid #003366;
+	padding: 0px;
+}
+
+
+TABLE.tablaFormat 
+{
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; MARGIN-TOP: 0px; FONT-WEIGHT: normal; BORDER-LEFT: #000000 1px solid; COLOR: #404040; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: verdana, arial, helvetica, sans-serif; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: #F1F5FE; border-spacing: 0px;
+	valign : middle; 			
+}
+TABLE.tablaFormat1
+{
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; MARGIN-TOP: 0px; FONT-WEIGHT: normal; BORDER-LEFT: #000000 1px solid; COLOR: #404040; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: verdana, arial, helvetica, sans-serif; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: #F1F5FE; border-spacing: 0px;
+	
+}
+
+TABLE.tablaFormat TH {
+	font-family:Verdana;
+	font-size:8pt;
+	color:black;
+	font-weight:bold;
+	border:solid 1px black;
+	background-color:"#CCCCCC";	
+	text-align: center;
+}
+
+TABLE.tablaFormat TD 
+{
+	color:"black";
+	font-family:"Verdana";
+	font-Size:8pt;
+	background-color:"#DAE4FC";
+	border:solid 1px black;
+	text-align: center;	
+}
+
+.tituloCurso {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+.contornoTabla {
+	border: 1px solid #000000;
+}
+
+
+.cmbForm
+{
+	font-family:Verdana;
+	font-size:8pt;
+	color:Black;
+}
+
+.txtForm
+{
+	font-family:Verdana;
+	font-size:8pt;
+	color:Black;
+	border:solid 1px #000000;
+}
+
+.lblError
+{
+	font-family:Verdana;
+	font-size:8pt;
+	color:Red;
+	font-weight:bold;
+}
+
+.btnForm
+{
+	background-color:black;
+	font-family:Verdana;
+	font-size:8pt;
+	color:white;
+	font-weight:bold;
+	border:solid 1px #000000;
+}
+
+.tdBlackLine
+{
+	background-color:#000000;
+}
+
+.tdMenuOut
+{
+	background-color:#E1F7F2;
+	border:solid 1px #E1F7F2;
+	font-family:Verdana;
+	color:Black;
+	font-size:8pt;
+}
+
+.tdMenuOver
+{
+	background-color:#CCE2DD;
+	border:solid 1px #000000;
+	font-family:Verdana;
+	color:Black;
+	cursor:hand;
+	font-size:8pt;
+}
+
+.abc {
+	text-align: right;
+}
+.txtFormNumerico {
+	font-family:Verdana;
+	font-size:8pt;
+	color:Black;
+	border:solid 1px #000000;
+	text-align: right;
+}
+.notaAzul {
+	color: #0000FF;
+}
+.notaRojo {
+	color: #FF0000;
+}
+
+.sesion{
+text-decoration:none; 
+color: black;
+}
+
+.tdMenuPerfilOut
+{
+	background-color:#CCCCCC;
+	border:solid 1px #032582;
+	font-family:Verdana;
+	color:white;
+	font-size:8pt; 
+	cursor:hand;	
+}
+.sesionBlanco {
+
+text-decoration:none; 
+color: #FFFFFF;
+}

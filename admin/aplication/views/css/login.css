@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../images/login/fondo.png);
+	background-repeat:repeat-x;
+}
+#medio {
+position:absolute;
+top:14%; 
+margin-left:17%;	
+	}
+#logo{
+	position:absolute; 
+	top: 6px; 
+	left: 8px;
+	margin-top:5px;
+	}
+
+.style1 {
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+.style2 {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#666666;
+	}
+.style3 {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#6C6C6C;
+	font-weight:bold;
+	margin-right:55px;
+	}
+.style4 {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#333333;
+	font-weight:bold;
+
+	}
+.style5{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#006699;
+	font-weight:bold;
+	padding-left: 5px;
+	
+	}	
+#mensaje-login{
+	font-family:Verdana, Geneva, sans-serif;
+	position:absolute;
+	color:#F00; 
+	margin-left:50px; 
+	font-size:12px;
+	width:300px;
+	
+	}

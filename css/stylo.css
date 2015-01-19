@@ -1,0 +1,155 @@
+    body  {
+	background: #666666; /* es recomendable ajustar a cero el margen y el relleno del elemento body para lograr la compatibilidad con la configuración predeterminada de los diversos navegadores */
+	padding: 0;
+	text-align: center; /* esto centra el contenedor en los navegadores IE 5*. El texto se ajusta posteriormente con el valor predeterminado de alineación a la izquierda en el selector #container */
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+    }
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #F00;
+	font-style: italic;
+}
+#mainContent #barIzq {
+	padding: 2px;
+	border: 1px dotted #99CC00;
+}
+
+    .twoColFixRtHdr #container {
+	width: 1100px;  /* el uso de 20px menos que un ancho completo de 800px da cabida a los bordes del navegador y evita la aparición de una barra de desplazamiento horizontal */
+	background: #FFFFFF; /* los márgenes automáticos (conjuntamente con un ancho) centran la página */
+	border: 0px solid #000000;
+	text-align: left; /* esto anula text-align: center en el elemento body. */
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 5;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	height: auto;
+    } 
+    .twoColFixRtHdr #header {
+	background-color: #666666;
+	height: 70px;
+	padding-top: 0;
+	padding-right: 10px;
+	padding-bottom: 0;
+	padding-left: 20px;
+	/*background-image: url(../img/cabezal.png);*/
+	background-repeat: no-repeat;
+	background-position: center top;
+    } 
+    .twoColFixRtHdr #header h1 {
+    	margin: 0; /* el ajuste en cero del margen del último elemento del div de #header evita la contracción del margen (un espacio inexplicable entre divs). Si el div tiene un borde alrededor, esto no es necesario, ya que también evita la contracción del margen */
+    	padding: 10px 0; /* el uso de relleno en lugar de margen le permitirá mantener el elemento alejado de los bordes del div */
+    }
+    .twoColFixRtHdr #sidebar1 {
+	float: right; /* dado que este elemento es flotante, debe asignarse un ancho */
+	width: 175px;
+	padding-top: 20px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+	padding-left: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #FFFFFF;
+	border: 1px dotted #999900;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+    }
+    .twoColFixRtHdr #mainContent {
+	margin-top: 0;
+	margin-right: 10px;
+	margin-bottom: 0;
+	margin-left: 10;
+	padding-top: 0;
+	padding-right: 10px;
+	padding-bottom: 0;
+	padding-left: 10px;
+    } 
+    .twoColFixRtHdr #footer {
+	height: 50px;
+	padding-top: 15;
+	padding-right: 0px;
+	padding-bottom: 0;
+	padding-left: 0px;
+	background-image: url(../img/pie1.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	clear: both;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	color: #333333;
+    } 
+    .fltrt { /* esta clase puede utilizarse para que un elemento flote en la parte derecha de la página. El elemento flotante debe preceder al elemento junto al que debe aparecer en la página. */
+    	float: right;
+    	margin-left: 8px;
+    }
+    .fltlft { /* esta clase puede utilizarse para que un elemento flote en la parte izquierda de la página. */
+    	float: left;
+    	margin-right: 8px;
+    }
+    .clearfloat { /* esta clase debe colocarse en un elemento div o break y debe ser el último elemento antes del cierre de un contenedor que incluya completamente a un elemento flotante */
+    	clear:both;
+        height:0;
+        font-size: 1px;
+        line-height: 0px;
+    }
+.twoColFixRtHdr #menu {
+	background-color: #FFFFFF;
+	height: 22px;
+	padding-top: 0;
+	padding-right: 10px;
+	padding-bottom: 0;
+	padding-left: 0px;
+	margin: 0px;
+}
+.ofertas {
+	border: 1px dotted #336600;
+	height: 350px;
+}
+
+td {
+	text-align: center;
+	width: auto;
+	height: auto;
+	margin-top: 2px;
+	margin-right: 4px;
+	margin-bottom: 2px;
+	margin-left: 4px;
+	padding-top: 0px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-left: 4px;
+	border-top-color: #CCE6E6;
+	border-right-color: #CCE6E6;
+	border-bottom-color: #CCE6E6;
+	border-left-color: #CCE6E6;
+}
+table {
+	font-family: Arial;
+	font-size: 11px;
+}
+
+.tillapto {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 18px;
+	font-weight: bold;
+	color: #006600;
+}
